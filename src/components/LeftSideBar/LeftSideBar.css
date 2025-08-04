@@ -102,3 +102,7 @@
 .menu:hover .sub-menu{
     display: block;
 }
+.search-icon {
+    height: 50px;
+    width: 50px;
+}

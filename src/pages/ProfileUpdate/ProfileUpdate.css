@@ -15,9 +15,9 @@
     border-radius: 10px;
 }
 .profile-pic{
-    max-width: 160px;
+    max-width: 150px;
     aspect-ratio: 1/1;
-    margin: 20px auto;
+    margin: 30px auto;
     border-radius: 50%;
 }
 .profile form{
@@ -34,5 +34,24 @@
     align-items: center;
     gap: 10px;
     color: grey;
+    cursor: pointer;
+}
+.profile label img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50;
+}
+.profile imput,textarea{
+    padding: 10px;
+    min-width: 300px;
+    border: 1px solid #c9c9c9;
+    outline-color: #077eff;
+}
+.profile form button{
+    border: none;
+    color: white;
+    background-color: #077eff;
+    padding: 8px;
+    font-size: 10px;
     cursor: pointer;
 }
