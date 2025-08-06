@@ -1,7 +1,6 @@
 import React from 'react'
 import './Chat.css'
 import LeftSideBar from '../../components/LeftSideBar/LeftSideBar'
-import RightSints/ChatBox/ChatBox'
 
 const Chat = () => {
   return (

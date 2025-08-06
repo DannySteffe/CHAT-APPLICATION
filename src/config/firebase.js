@@ -39,6 +39,8 @@ const signup = async (username,email,password) => {
         })
     } catch (error) {
         console.error(Error );
+        toast.error(error.code )
 
     }
 }
+export {signup}
